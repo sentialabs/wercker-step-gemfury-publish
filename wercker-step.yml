@@ -1,0 +1,18 @@
+name: gemfury-publish
+version: 0.0.0
+description: Builds and Publishes a Gem on Gemfury
+keywords:
+  - gemfury
+  - gem
+  - deploy
+  - publish
+properties:
+  org:
+    type: string
+    required: true
+  token:
+    type: string
+    required: false
+  gemspec:
+    type: string
+    required: true
