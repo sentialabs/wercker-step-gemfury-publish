@@ -5,7 +5,7 @@ Builds a gem and publishes to Gemfury
 ```yaml
 deploy:
   steps:
-    - sentialabs/gemfury-publish:
+    - sentia/gemfury-publish:
         gemspec: mygem.gemspec
         org: myfuryorg
         token: mYfUrYtOkEn-S

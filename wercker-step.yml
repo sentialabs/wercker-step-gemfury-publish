@@ -1,5 +1,5 @@
 name: gemfury-publish
-version: 0.0.0
+version: 0.0.1
 description: Builds and Publishes a Gem on Gemfury
 keywords:
   - gemfury
