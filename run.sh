@@ -47,6 +47,8 @@ main() {
 
   # Publish the gem to Gemfury
   curl \
+    -f \
+    --silent \
     -F "package=@$WERCKER_GEMFURY_PUBLISH_GEM" \
     https://$WERCKER_GEMFURY_PUBLISH_TOKEN@push.fury.io/$WERCKER_GEMFURY_PUBLISH_ORG/
 }
