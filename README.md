@@ -1,4 +1,4 @@
-# sentialabs/gemfury-publish
+# gemfury-publish
 
 Builds a gem and publishes to Gemfury
 

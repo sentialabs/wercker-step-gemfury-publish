@@ -17,7 +17,7 @@ main() {
 
   # Fallback to global FURY_AUTH variable
   if [ -z "$WERCKER_GEMFURY_PUBLISH_TOKEN" ]; then
-    if [ -z "$WERCKER_GEMFURY_PUBLISH_TOKEN" ]; then
+    if [ -z "$FURY_AUTH" ]; then
       fail "token: argument emtpy and no global \$FURY_AUTH set"
     fi
     WERCKER_GEMFURY_PUBLISH_TOKEN=$FURY_AUTH
